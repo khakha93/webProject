@@ -16,8 +16,8 @@
             <li>금융 머신러닝 실습 및 프로젝트 -> 블로그에 포스팅</li>
         </ol>
         
-        <h2>Today</h2>
-        <li>던킨 도너츠 할인 (T 멤버십)</li>
+        <h2> [Today] <span id="datetime"></span></h2>
+        <li>5/30: 던킨 도너츠 할인 (T 멤버십)</li>
         <h3>Schedule</h3>
         <table border="" >
             <tr>
@@ -49,5 +49,15 @@
         <h2>빠른 메모</h2>
         <input type="text" placeholder="Memo..."/>
         <button>입력</button>
+
+        
+        <script>
+        // Get current date and time
+        var now = new Date();
+        var datetime = now.toLocaleDateString();
+
+        // Insert date and time into HTML
+        document.getElementById("datetime").innerHTML = datetime;
+        </script>
     </body>
 </html>
