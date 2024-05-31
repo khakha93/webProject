@@ -89,15 +89,15 @@ body{
 
 .first-line{
     border-bottom: 1px solid #dadce0;
-    font-size: 15px;
+    font-size: 12px;
     color: rgba(0,0,0,54);
-    padding: 15px 30px;
+    padding: 12px 24px;
 }
 
 .second-line{
     display: flex;
     justify-content: space-between;
-    font-size: 15px;
+    font-size: 12px;
     padding: 15px 30px;
     color: rgba(0,0,0,54)
 }
