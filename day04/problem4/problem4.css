@@ -1,0 +1,38 @@
+nav{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: right;
+}
+.back-btn{
+    text-decoration: none;
+    color: black;
+    background-color: gainsboro;
+    border: 1px solid #dadce0;
+    margin: 10px 20px;
+}
+.back-btn:hover{
+    box-shadow: 0 1px 1px rgb(0, 0, 0 / 10%);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+
+main{
+    /* border: 3px solid rebeccapurple;s */
+    position: relative;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    color: white;
+}
+
+.box1{
+    background-color: black;
+}
+.box2{
+    background-color: gray;
+    position: absolute;
+    left: 50px;
+    top: 50px;
+}

@@ -1,0 +1,57 @@
+body{
+    /* border: 3px solid rebeccapurple; */
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+nav{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: right;
+}
+.back-btn{
+    text-decoration: none;
+    color: black;
+    background-color: gainsboro;
+    border: 1px solid #dadce0;
+    margin: 10px 20px;
+}
+.back-btn:hover{
+    box-shadow: 0 1px 1px rgb(0, 0, 0 / 10%);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+
+main{
+    flex: 1 0 auto;
+    display: flex;
+    justify-content: right;
+    align-items: end;
+}
+.outer-box{
+    background-color: gray;
+    color: white;
+    width: 350px;
+    height: 150px;
+    position: relative;
+    margin: 10px;
+}
+
+.inner-box{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}
+
+.left-btm-box{
+    position: absolute;
+    bottom: 0;
+}
+.right-btm-box{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
