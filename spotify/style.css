@@ -1,10 +1,15 @@
 /* $$$ */
-div{border: 1px solid red}
+/* div{border: 1px solid red} */
 
 body{
     margin: 0px;
     font-family: Circular, spotify-circular, Helvetica, Arial, sans-serif;
     color: white;
+    min-height: 100vh;
+    /* min-width: 100%; */
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
 }
 
 a{
@@ -37,10 +42,13 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
+    overflow: visible;
+    padding: 20px 0;
 }
-
-/* $$$ */
-.main-container{border: 1px solid black;}
+/* .main-container{
+    border: 5px solid black;
+} */
 
 .headline{
     color: #1ed760;
@@ -76,15 +84,74 @@ main{
 }
 
 footer{
+    flex: 1 0 auto;
     height: 530px;
     background-color: black;
     display: flex;
-    align-items: center;
     justify-content: center;
+    position: relative;
 }
 
 .footer-container{
+    /* $$$ */
+    /* background-color: palegoldenrod; */
     width: 1170px;
+    align-items: start;
+    position: absolute;
+    bottom: 50px;
+    padding: 10px;
+}
+
+.footer-top{
+    display: flex;
+}
+
+.footer-links{
+    /* border: 3px solid #2941ab; */
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+.link-title{
+    color: #919496;
+    font-weight: 900;
+    margin: 10px 0;
+}
+.column>div{
+    padding-bottom: 15px;
+    /* font-size: 50px; */
+}
+
+.footer-top-right{
+    width: 40%;
+    display: flex;
+    justify-content: end;
+}
+.footer-icons{
+    display: flex;
+    font-size: 24px;
+}
+.icon-box{
+    width: 54px;
+    height: 54px;
+    background-color: #222322;
+    border-radius: 50%;
+    margin-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.footer-bottom{
+    margin-bottom: 30px;
+    color: #919496;
+}
+.legal-links a{
+    color: #919496;
+    margin-right: 2em;
+}
+.legal-links a:hover{
+    color: #1ed760;
 }
 
 .usa{
@@ -95,5 +162,4 @@ footer{
     display: flex;
     justify-content: space-between;
     border: black;
-    color: #919496;
 }
