@@ -1,0 +1,46 @@
+/* div{border: 1px solid red;} */
+
+.explain{
+    text-align: center;
+    margin: 50px 0px;
+}
+
+.btn-dark{
+    margin: 15px 0;
+}
+
+.card{
+    margin: 0px 10px;
+    padding: 0 0;
+    width: fit-content;
+}
+.card:hover{
+    scale: 105%;
+}
+.card-body{
+    /* border: 5px solid black; */
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+footer{
+    background-color: black;
+    color: white;
+}
+.footer-brand-name{
+    font-size: 15px;
+    padding: 50px 5px;
+    margin-left: 1em;
+}
+.links{
+    font-size: 12px;
+    padding: 50px 5px;
+    border-top: 1px solid #392d23;
+}
+.links>a{
+    color: white;
+    text-decoration: none;
+    margin: 1em;
+}
