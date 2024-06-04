@@ -1,5 +1,10 @@
 /* div{border: 1px solid red;} */
 
+.navbar{
+    /* border: 1px solid rebeccapurple; */
+    padding: 10px 10px;
+}
+
 .btn-outline-success{
     color: #af231c;
     border-color: #af231c;
@@ -11,24 +16,15 @@
 }
 
 .row{
-    /* border: 1px solid rebeccapurple; */
-    /* margin: 10px 0; */
-    /* padding: 10px 0; */
     display: flex;
     justify-content: center;
-    /* align-items: flex-end; */
 }
 
 .col{
-    /* border: 5px solid red; */
     display: flex;
     justify-content: center;
 }
 .card{
-    /* border: 1px solid red; */
-    /* border: 5px solid black; */
-    /* margin: 0px 10px; */
-    /* padding: 10px 0; */
     height: 100%;
 }
 
@@ -53,16 +49,35 @@ footer{
 }
 .footer-brand-name{
     font-size: 15px;
-    padding: 50px 5px;
     margin-left: 1em;
+    border-bottom: 1px solid #392d23;
 }
 .links{
     font-size: 12px;
     padding: 50px 5px;
-    border-top: 1px solid #392d23;
 }
-.links>a{
+.col>a{
     color: white;
     text-decoration: none;
     margin: 1em;
+}
+
+.hidden-text{
+    display: none;
+}
+
+@media screen and (max-width: 48rem) {
+    .footer-brand-name{
+        text-align: center;
+    }
+}
+@media screen and (max-width: 48rem) {
+    .row{
+        padding: 0 2rem;
+    }
+}
+@media screen and (max-width: 48rem) {
+    .hidden-text{
+        display: block;
+    }
 }
