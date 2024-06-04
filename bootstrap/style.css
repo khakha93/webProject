@@ -1,5 +1,15 @@
 /* div{border: 1px solid red;} */
 
+.btn-outline-success{
+    color: #af231c;
+    border-color: #af231c;
+}
+.btn-outline-success:hover{
+    background-color: #af231c;
+    color: white;
+    border-color: #af231c;
+}
+
 .explain{
     text-align: center;
     margin: 50px 0px;
